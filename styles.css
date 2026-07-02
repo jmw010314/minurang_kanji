@@ -1,5 +1,5 @@
 :root {
-  color-scheme: light dark;
+  color-scheme: light;
 
   /* surfaces — pastel lavender / pink */
   --bg: #ece4f4;
@@ -45,39 +45,6 @@
   /* Japanese gothic — what JP users actually see (Mac/Win system first, web fallback) */
   --font-jp: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic", "Yu Gothic UI",
     "YuGothic", "Meiryo", "Noto Sans JP", "Pretendard Variable", Pretendard, sans-serif;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #121419;
-    --bg-grad-a: #15171d;
-    --bg-grad-b: #0e0f13;
-    --surface: #1b1e25;
-    --surface-2: #20242c;
-    --surface-3: #232830;
-
-    --ink: #ecebe7;
-    --muted: #9aa0a9;
-
-    --line: #2c313a;
-    --line-strong: #3a414c;
-    --accent: #a78bfa;
-    --accent-strong: #c4b5fd;
-    --accent-tint: #241a3a;
-    --accent-ring: rgba(167, 139, 250, 0.34);
-
-    --seal: #f08ab3;
-    --seal-tint: #331a26;
-
-    --good: #57c98a;
-    --good-tint: #14271d;
-    --bad: #f08a83;
-    --bad-tint: #2c1816;
-
-    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.35), 0 2px 8px rgba(0, 0, 0, 0.28);
-    --shadow-md: 0 8px 20px rgba(0, 0, 0, 0.4), 0 14px 36px rgba(0, 0, 0, 0.34);
-    --shadow-lg: 0 22px 56px rgba(0, 0, 0, 0.55);
-  }
 }
 
 * {
